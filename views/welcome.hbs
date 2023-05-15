@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>{{title}}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+		body {
+			background-image: url('/public/images/v2.jpg');
+			background-size: cover;
+
+		}
+	</style>
+</head>
+
+<body class=" align-content-center flex-wrap ml-5 mt-5">
+	<h1 style="color: aliceblue;">Welcome to our website!</h1>
+	<p style="color: aliceblue;">You have successfully logged in as {{user}}</p>
+	<form action="/" method="post">
+		<button type="submit" class="btn btn-success">Log Out</button>
+	</form>
+	<div class="container-fluid row">
+		<div class="card mt-5 " style="width: 15rem;">
+			<img class="card-img-top" src="/public/images/mongo.png" alt="Card image cap">
+			<div class="card-body">
+				<p class="card-text"> You can learn about MOngo DB here, to be a MERN Stack developer</p>
+			</div>
+		</div>
+		<div class="card mt-5 ml-5 " style="width: 15rem;">
+			<img class="card-img-top" src="/public/images/express.jpg" alt="Card image cap">
+			<div class="card-body">
+				<p class="card-text"> You can learn Express.JS here</p>
+			</div>
+		</div>
+		<div class="card mt-5   ml-5" style="width: 15rem;">
+			<img class="card-img-top" style="height: 190px; width: 238px;" src="/public/images/React.jpg" alt="Card image cap">
+			<div class="card-body">
+				<p class="card-text"> You can learn React.JS here</p>
+			</div>
+		</div>
+		<div class="card mt-5 ml-5 " style="width: 15rem;">
+			<img class="card-img-top" src="/public/images/node.png" alt="Card image cap">
+			<div class="card-body">
+				<p class="card-text"> You can learn Node.JS here</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
